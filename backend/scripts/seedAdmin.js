@@ -23,8 +23,8 @@ const createAdmin = async () => {
     // Create admin user
     const admin = new User({
       name: 'System Admin',
-      email: 'admin@creditbureau.com',
-      password: 'admin123', // Will be hashed by the pre-save hook
+      email: 'makara@creditbureau.com',
+      password: 'makara123', // Will be hashed by the pre-save hook
       role: 'admin'
     });
     
